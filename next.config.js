@@ -1,6 +1,6 @@
 const withPlugins = require("next-compose-plugins");
 const withSass = require("@module-federation/next-sass");
-const withTranspileModules = require("next-transpile-modules");
+const withTranspileModules = require("@module-federation/next-transpile-modules");
 
 module.exports = withPlugins([
     [
@@ -12,12 +12,6 @@ module.exports = withPlugins([
             }
         }
     ],
-    // withTranspileModules,
-    // {
-    //     transpileModules: [
-    //         "../something.js",
-    //     ]
-    // }
 ], {
     // works with serverless too
     // target: 'serverless',
