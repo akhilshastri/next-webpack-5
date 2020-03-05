@@ -9,11 +9,14 @@
   },
   "dependencies": {
     "@module-federation/next": "^9.2.2-beta.6",
-    "@module-federation/next-css": "^1.0.1-beta.0",
+    "@module-federation/next-css": "^1.0.1-beta.1",
+    "@module-federation/next-sass": "^1.0.1-beta.2",
     "next-compose-plugins": "^2.2.0",
-    "next-sass": "^1.0.3",
     "next-transpile-modules": "^3.0.2",
     "react": "16.13.0",
     "react-dom": "16.13.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1"
   }
 }

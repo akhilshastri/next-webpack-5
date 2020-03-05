@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import './thing.css'
+import './thing.scss'
 const Home = () => (
   <div className="container">
     <Head>
