@@ -931,10 +931,18 @@
     sass-loader "^8.0.2"
     xo "^0.27.2"
 
-"@module-federation/next@^9.2.2-beta.6":
-  version "9.2.2-beta.10"
-  resolved "https://registry.yarnpkg.com/@module-federation/next/-/next-9.2.2-beta.10.tgz#e4df43a6e35d7817209f8926615a29956fe5b007"
-  integrity sha512-lFy7LaiFjSjxsR9Br47KPzEdD5XY/vwME0IEi/93Umbw7pfiMiz3LJXnmvvBeLf00oPuTstgoZxImtPIOC6JLQ==
+"@module-federation/next-transpile-modules@^3.0.2-beta.0":
+  version "3.0.2-beta.1"
+  resolved "https://registry.yarnpkg.com/@module-federation/next-transpile-modules/-/next-transpile-modules-3.0.2-beta.1.tgz#1ed5de5e215ea074658c852d5b4ac41624c148b0"
+  integrity sha512-Dn6dYIDE5b53JOvSYJjobIKByMSUSUEIdeJH/eBIXsOYW7l/hDVm5sRJAqEaxH37Wc/Brhy8twB49q9zeJg78g==
+  dependencies:
+    micromatch "^4.0.2"
+    slash "^3.0.0"
+
+"@module-federation/next@^9.2.2-beta.11":
+  version "9.2.2-beta.11"
+  resolved "https://registry.yarnpkg.com/@module-federation/next/-/next-9.2.2-beta.11.tgz#e759f292b36d8d8e3e8f68d28155085369207aeb"
+  integrity sha512-2OcYyMv2YfnNqDzl7YWSxd/y6BlEdEKFsQXtM53ld7ZxjcTAyYRlVwiSSi2ITIq42Jetch3yoYAdMPsGsR2x6w==
   dependencies:
     "@ampproject/toolbox-optimizer" "2.0.0"
     "@babel/core" "7.7.2"
@@ -5384,14 +5392,6 @@ next-tick@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
-
-next-transpile-modules@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/next-transpile-modules/-/next-transpile-modules-3.0.2.tgz#b289698d453bb7346fd768da171b53a740bfe436"
-  integrity sha512-w3WsyxvkJ3ws16InHwXhlDaOyG6Peo4co9U2sVBMePwEDo9r3SsbzX7p43sLUTYbpuA2t9iwJoCXkj/4BuD3Qw==
-  dependencies:
-    micromatch "^4.0.2"
-    slash "^3.0.0"
 
 nice-try@^1.0.4:
   version "1.0.5"
